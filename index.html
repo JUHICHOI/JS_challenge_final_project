@@ -4,11 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>JAVA SCRIPT CHALLENGE FINAL PROJECT FROM JUHEE</title>
 </head>
 <body>
+    <!-- making real time Clock-->
     <div id="clock">
-        <h1>NOW</h1>
+        <h1></h1>
     </div>
+
+    <!-- making login using local storage-->
+    <form class="hidden" id="user_login_form">
+        <input type="text" id="user_input" size="50" />
+    </form>
+    <div id="greet">
+        <span class="hidden" id="greetingUser"></span>
+    </div>
+
+    <!-- making todo lsit -->
+    <form id="todo_list_form">
+        <input type="text" placeholder="Fill Your Todo List :-) " id="todo_input">
+    </form>
+    <ul id="todo_list"></ul>
+    
+    <!-- change bg color -->
+    <div id="change_bg">
+        <button id="change_color" class="hover">click -> change color</button>
+    </div>
+
+    <!-- weather and location -->
+    <div id="show_weather">
+        <span></span><br>
+        <span></span>
+    </div>
+
+
+    <!-- import java script -->
+    <script src="js/clock.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/img.js"></script>
+    <script src="js/weather.js"></script>
+
+
 </body>
 </html>
